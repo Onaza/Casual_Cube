@@ -5,7 +5,7 @@ using UnityEngine;
 public class SaveManager : MonoBehaviour
 {
     // 16byte Private Key
-    private readonly string privateKey = "dhks1tlr2gp2fla7";
+    private readonly string privateKey = "################";
 
     public void SaveToFile<T>(T data)
     {
