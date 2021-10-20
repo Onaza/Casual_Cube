@@ -19,10 +19,10 @@ public class GoogleAdsManager : MonoBehaviour
     private void RequestBanner()
     {
 #if UNITY_ANDROID
-        string appId = "ca-app-pub-6933125760536637/1593114932";
+        string appId = "ca-app-pub-3940256099942544/6300978111";
         //string appId = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
-        string appId = "ca-app-pub-6933125760536637/1593114932";
+        string appId = "ca-app-pub-3940256099942544/6300978111";
 #else
         string appId = "UNEXPECTED_PLATFORM";
 #endif
